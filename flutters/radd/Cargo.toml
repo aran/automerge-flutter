@@ -1,0 +1,17 @@
+[package]
+name = "radd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+automerge = "0.4.1"
+autosurgeon = "0.7.1"
+flutter_rust_bridge = "1"
+getrandom = { version = "0.2.10", features = ["js"] }
+tinyvec = "1.6.0"
+
+[lib]
+crate-type = ["lib", "staticlib", "cdylib"]
+
