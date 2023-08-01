@@ -16,8 +16,6 @@ The rust module is called `radd`. That's short for "rust add" because the first 
 
 The flutter_rust_bridge_codegen includes a misleading bit for a macos header, but macos support isn't actually set up.
 
-It uses an out-of-date autosurgeon and automerge because of https://github.com/automerge/automerge/issues/681.
-
 ## On rust changes
 
     cd flutters
