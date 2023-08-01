@@ -26,7 +26,7 @@ packages:
     source: hosted
     version: "3.3.7"
   args:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: args
       sha256: eef6c46b622e0494a36c5a12d10d77fb4e855501a91c1b9ef9339326e58f0596
@@ -308,7 +308,7 @@ packages:
     source: hosted
     version: "2.3.1"
   http:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: http
       sha256: "759d1a329847dd0f39226c688d3e06a6b8679668e350e2891a6474f8b4bb8525"
@@ -476,7 +476,7 @@ packages:
     source: hosted
     version: "3.2.1"
   shelf:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: shelf
       sha256: ad29c505aee705f41a4d8963641f91ac4cee3c8fad5947e033390a7bd8180fa4

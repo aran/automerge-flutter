@@ -37,5 +37,9 @@ The flutter_rust_bridge_codegen includes a misleading bit for a macos header, bu
     flutter pub get
     dart run flutter_rust_bridge:serve --crate radd
 
+Note that flutter_rust_bridge:serve uses the 'credentialless' Cross-Origin-Embedder-Policy, which is not supported on Safari. To test on Safari, try the provided proxy server, which uses 'require-corp' instead.
+
+    dart run web/cross_origin_proxy.dart -- --release
+
 ### iOS
 Just use Flutter's Debug in iOS simulator
