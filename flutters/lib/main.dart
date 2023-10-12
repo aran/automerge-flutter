@@ -144,23 +144,23 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
+            const Text(
               'Contact',
             ),
             Text(
-              '${contact.name}',
+              contact.name,
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             Text(
-              '${contact.address.lineOne}',
+              contact.address.lineOne,
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             Text(
-              '${contact.address.city}',
+              contact.address.city,
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             Text(
-              '${contact.address.postcode}',
+              contact.address.postcode,
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             TextButton(
